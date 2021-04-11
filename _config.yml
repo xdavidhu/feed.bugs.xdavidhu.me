@@ -3,7 +3,7 @@ title_left    : "feed"
 title_right   : "" # default: ""
 description   : "xdavidhu's bug bounty disclosures."
 keywords      : ""
-url           : https://feed.bugs.xdavidhu.me/ # site url
+url           : https://feed.bugs.xdavidhu.me # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
 cover         : "" # image uri like logo/cover image for site seo
 
