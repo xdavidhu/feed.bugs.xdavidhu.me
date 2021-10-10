@@ -296,3 +296,23 @@ hr {
     }
   }
 }
+
+::-webkit-scrollbar {
+  width: 10px
+}
+
+::-webkit-scrollbar-track {
+  background: #333
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(85,85,85,0.5)
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555
+}
+
+::-webkit-scrollbar-corner {
+  background: #333
+}
