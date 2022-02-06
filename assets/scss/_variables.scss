@@ -5,6 +5,7 @@ $heading-font-family: $base-font-family;
 
 // Font Sizes
 $base-font-size: 1em;
+$base-font-size-mobile: .805em;
 
 // Line height
 $base-line-height: 1.5;
@@ -15,6 +16,7 @@ $base-border-radius: .52em;
 $base-spacing: $base-line-height * 1em;
 $small-spacing: $base-spacing / 2;
 $base-z-index: 0;
+$mobile-breaking-point: 642px;
 
 // Colors
 $primary-color: #fff;

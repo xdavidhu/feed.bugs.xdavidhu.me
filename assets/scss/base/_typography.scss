@@ -1,9 +1,13 @@
 body {
   color: $base-font-color;
   font-family: $base-font-family;
+  font-variant-ligatures: no-common-ligatures;
   //font-feature-settings: "kern", "liga", "pnum";
   font-size: $base-font-size;
   line-height: $base-line-height;
+  @media (max-width: $mobile-breaking-point) {
+    font-size: $base-font-size-mobile;
+  }
 }
 
 h1,
@@ -20,24 +24,24 @@ h6 {
 }
 
 h1 {
-  font-size: rem(30);
+  font-size: 1.5em;
 }
 
 h2 {
-  font-size: rem(26);
+  font-size: 1.4em;
 }
 
 h3 {
-  font-size: rem(24);
+  font-size: 1.3em;
 }
 
 h4 {
-  font-size: rem(20);
+  font-size: 1.2em;
 }
 
 h5,
 h6 {
-  font-size: rem(16);
+  font-size: 1em;
 }
 
 p {
