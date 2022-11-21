@@ -62,6 +62,12 @@
   <meta name="twitter:description" content="{{ site.description }}">
   <meta name="twitter:image:src" content="{{ page_image }}">
 
+  <!-- Social: Open Graph -->
+  <meta name="title" property="og:title" content="{{ page.title }}">
+  <meta name="description" property="og:description" content="{{ site.description }}">
+  <meta name="image" property="og:image" content="{{ page_image }}">
+  <meta name="author" content="{{ site.author.name }}">
+
   <!-- Canonical link tag -->
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title_left }}{{ site.title_right }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
