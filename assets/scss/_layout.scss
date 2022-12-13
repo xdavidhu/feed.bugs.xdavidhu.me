@@ -45,8 +45,10 @@ hr {
   margin-right: auto;
   max-width: 900px;
   font-weight: normal;
-  &.post-list-extra-width {
-    max-width: 80%;
+  @media (min-width: 601px) {
+    &.post-list-extra-width {
+      max-width: 80%;
+    }
   }
 }
 
